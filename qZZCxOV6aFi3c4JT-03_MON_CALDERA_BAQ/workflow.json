@@ -1,12 +1,53 @@
 {
-    "updatedAt": "2026-07-12T21:19:51.457Z",
+    "updatedAt": "2026-07-12T21:54:19.122Z",
     "createdAt": "2026-05-22T02:06:24.664Z",
     "id": "qZZCxOV6aFi3c4JT",
     "name": "03_MON_CALDERA_BAQ",
     "active": false,
     "isArchived": false,
-    "nodes": [],
-    "connections": {},
+    "nodes": [
+        {
+            "parameters": {},
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                0,
+                0
+            ],
+            "id": "4c5ecbc9-292f-4760-af31-7e562facee6b",
+            "name": "When clicking \u2018Execute workflow\u2019",
+            "credentials": null,
+            "webhookId": null,
+            "alwaysOutputData": null
+        },
+        {
+            "parameters": {},
+            "type": "n8n-nodes-base.noOp",
+            "typeVersion": 1,
+            "position": [
+                208,
+                0
+            ],
+            "id": "931a2a49-ed48-48f6-8f89-4a7dd6fe8930",
+            "name": "No Operation, do nothing",
+            "credentials": null,
+            "webhookId": null,
+            "alwaysOutputData": null
+        }
+    ],
+    "connections": {
+        "When clicking \u2018Execute workflow\u2019": {
+            "main": [
+                [
+                    {
+                        "node": "No Operation, do nothing",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
     "settings": {
         "executionOrder": "v1",
         "binaryMode": "separate",
@@ -16,7 +57,7 @@
     "staticData": null,
     "meta": null,
     "pinData": {},
-    "versionId": "04bf03eb-e35d-4cf3-8b54-199320e32197",
+    "versionId": "765dbbad-dab6-485c-bcf9-6ac96e31354f",
     "activeVersionId": null,
     "triggerCount": 0,
     "shared": [
