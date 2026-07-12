@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-12T21:57:01.527Z",
+    "updatedAt": "2026-07-12T22:19:54.035Z",
     "createdAt": "2026-05-22T02:06:24.664Z",
     "id": "qZZCxOV6aFi3c4JT",
     "name": "03_MON_CALDERA_CAMBIO_DE_NOMBRE",
@@ -33,6 +33,20 @@
             "credentials": null,
             "webhookId": null,
             "alwaysOutputData": null
+        },
+        {
+            "parameters": {},
+            "type": "n8n-nodes-base.noOp",
+            "typeVersion": 1,
+            "position": [
+                416,
+                0
+            ],
+            "id": "e751068f-751e-4c5e-b490-a960d73ba0c5",
+            "name": "No Operation, do nothing1",
+            "credentials": null,
+            "webhookId": null,
+            "alwaysOutputData": null
         }
     ],
     "connections": {
@@ -41,6 +55,17 @@
                 [
                     {
                         "node": "No Operation, do nothing",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "No Operation, do nothing": {
+            "main": [
+                [
+                    {
+                        "node": "No Operation, do nothing1",
                         "type": "main",
                         "index": 0
                     }
@@ -57,7 +82,7 @@
     "staticData": null,
     "meta": null,
     "pinData": {},
-    "versionId": "765dbbad-dab6-485c-bcf9-6ac96e31354f",
+    "versionId": "d90b73ed-9b3e-43ae-a403-2b9e7be19c57",
     "activeVersionId": null,
     "triggerCount": 0,
     "shared": [
