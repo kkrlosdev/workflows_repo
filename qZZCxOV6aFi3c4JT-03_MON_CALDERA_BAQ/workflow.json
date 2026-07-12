@@ -1,0 +1,38 @@
+{
+    "updatedAt": "2026-07-12T21:19:51.457Z",
+    "createdAt": "2026-05-22T02:06:24.664Z",
+    "id": "qZZCxOV6aFi3c4JT",
+    "name": "03_MON_CALDERA_BAQ",
+    "active": false,
+    "isArchived": false,
+    "nodes": [],
+    "connections": {},
+    "settings": {
+        "executionOrder": "v1",
+        "binaryMode": "separate",
+        "availableInMCP": null,
+        "timezone": null
+    },
+    "staticData": null,
+    "meta": null,
+    "pinData": {},
+    "versionId": "04bf03eb-e35d-4cf3-8b54-199320e32197",
+    "activeVersionId": null,
+    "triggerCount": 0,
+    "shared": [
+        {
+            "updatedAt": "2026-05-22T02:06:24.666Z",
+            "createdAt": "2026-05-22T02:06:24.666Z",
+            "role": "workflow:owner",
+            "workflowId": "qZZCxOV6aFi3c4JT",
+            "projectId": "qfSK8vA6RcMgWrbB"
+        }
+    ],
+    "activeVersion": null,
+    "tags": [
+        {
+            "id": "crRbtVy1MEMmxaGH",
+            "name": "mon-influx"
+        }
+    ]
+}
